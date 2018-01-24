@@ -24,7 +24,7 @@ public class Squares_Cubes {
 			
 			for (int i = 1; i <= num; i++) { //use the for loop so that program will only run up to the number the user input
 				int numSquared = (int) Math.pow(i, 2); //Math. method for finding squares and cubes
-				int numCubed = (int) Math.pow(i, 2);
+				int numCubed = (int) Math.pow(i, 3);
 				
 				String message = "\n" + i + "         " + numSquared + "         " + numCubed;
 				
