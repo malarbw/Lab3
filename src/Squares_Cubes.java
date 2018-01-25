@@ -20,7 +20,7 @@ public class Squares_Cubes {
 			int num = input.nextInt(); //declare necessary variable
 		
 			System.out.println("Number" + "  " + "Squared" + "  " + "Cubed");       
-            System.out.println("======" + "  " + "======" + "  " + "======"); //mainly for organization in the output
+            		System.out.println("======" + "  " + "======" + "  " + "======"); //mainly for organization in the output
 			
 			for (int i = 1; i <= num; i++) { //use the for loop so that program will only run up to the number the user input
 				int numSquared = (int) Math.pow(i, 2); //Math. method for finding squares and cubes
